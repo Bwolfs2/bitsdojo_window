@@ -15,6 +15,8 @@ flutter:
         default_package: bitsdojo_window_windows
       macos:
         default_package: bitsdojo_window_macos
+      linux:
+        default_package: bitsdojo_window_linux
 
 dependencies:
   flutter:
@@ -25,3 +27,7 @@ dependencies:
     #path: ../bitsdojo_window_windows
   bitsdojo_window_macos: ^0.0.1
     #path: ../bitsdojo_window_macos
+  bitsdojo_window_linux:
+    git:
+      url: git://github.com/gskinnerTeam/bitsdojo_window
+      path: bitsdojo_window_linux
